@@ -146,6 +146,113 @@
     border-radius: 1rem;
 }
 
+#detalhes {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+
+}
+
+.modal-title {
+    text-transform: capitalize;
+    
+}
+
+
+
+.modal-content {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    text-transform: capitalize;
+    color: white;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 200px;
+
+
+}
+
+/* Colocando a mesma cor do tipo de Pokemon para cada janela de detalhe*/
+
+.modal-content.normal {
+    background-color: #a6a877;
+}
+
+.modal-content.grass {
+    background-color: #77c850;
+}
+
+.modal-content.fire {
+    background-color: #ee7f30;
+}
+
+.modal-content.water {
+    background-color: #678fee;
+}
+
+.modal-content.electric {
+    background-color: #f7cf2e;
+}
+
+.modal-content.ice {
+    background-color: #98d5d7;
+}
+
+.modal-content.ground {
+    background-color: #dfbf69;
+}
+
+.modal-content.flying {
+    background-color: #a98ff0;
+}
+
+.modal-content.poison {
+    background-color: #a040a0;
+}
+
+.modal-content.fighting {
+    background-color: #bf3029;
+}
+
+.modal-content.psychic {
+    background-color: #f65687;
+}
+
+.modal-content.dark {
+    background-color: #725847;
+}
+
+.modal-content.rock {
+    background-color: #b8a137;
+}
+
+.modal-content.bug {
+    background-color: #a8b720;
+}
+
+.modal-content.ghost {
+    background-color: #6e5896;
+}
+
+.modal-content.steel {
+    background-color: #b9b7cf;
+}
+
+.modal-content.dragon {
+    background-color: #6f38f6;
+}
+
+.modal-content.fairy {
+    background-color: #f9aec7;
+}
+
+
+
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
